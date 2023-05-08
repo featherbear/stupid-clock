@@ -2,4 +2,7 @@
     just --list
 
 @build:
-    true
+    zig build
+
+@test:
+    zig build test
